@@ -1,6 +1,6 @@
 package com.lambdaschool.solution;
 
-public class TrackAthleteCreationImplementation implements AthleteService{
+public class TrackAthleteCreationImplementation implements AthleteService {
 
     @Override
     public void displayAthlete() {

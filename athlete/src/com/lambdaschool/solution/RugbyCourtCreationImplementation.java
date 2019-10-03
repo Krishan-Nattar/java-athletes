@@ -1,6 +1,6 @@
 package com.lambdaschool.solution;
 
-public class RugbyCourtCreationImplementation implements CourtService{
+public class RugbyCourtCreationImplementation implements CourtService {
 
     @Override
     public void displayCourt() {

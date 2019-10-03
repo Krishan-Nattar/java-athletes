@@ -6,8 +6,4 @@ public class BaseballAthleteCreationImplementation implements AthleteService {
     public void displayAthlete() {
         System.out.println("Baseball Athlete");
     }
-
-//    public void displayCourt() {
-//        System.out.println("Baseball field");
-//    }
 }

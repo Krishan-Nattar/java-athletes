@@ -5,7 +5,7 @@ public class RugbyAthleteCreationInjector implements AthleteCreationInjector {
     @Override
     public Processor getProcess() {
 
-       return new MyApplication(new RugbyAthleteCreationImplementation());
+        return new MyApplication(new RugbyAthleteCreationImplementation());
     }
 
 }

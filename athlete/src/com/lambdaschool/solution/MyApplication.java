@@ -1,15 +1,15 @@
 package com.lambdaschool.solution;
 
-public class MyApplication implements Processor{
+public class MyApplication implements Processor {
 
     private AthleteService ath;
     public CourtService court;
-    public MyApplication(AthleteService ath)
-    {
+
+    public MyApplication(AthleteService ath) {
         this.ath = ath;
     }
-    public MyApplication(CourtService court)
-    {
+
+    public MyApplication(CourtService court) {
         this.court = court;
     }
 

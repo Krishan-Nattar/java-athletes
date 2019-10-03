@@ -5,7 +5,7 @@ public class HockeyCourtCreationInjector implements CourtCreationInjector {
     @Override
     public Processor getProcess() {
 
-       return new MyApplication(new HockeyCourtCreationImplementation());
+        return new MyApplication(new HockeyCourtCreationImplementation());
     }
 
 }
