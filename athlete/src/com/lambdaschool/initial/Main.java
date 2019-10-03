@@ -2,7 +2,6 @@ package com.lambdaschool.initial;
 
 public class Main
 {
-
     public static void main(String[] args)
     {
         MyApplication myAthlete = new MyApplication();
